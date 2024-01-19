@@ -114,7 +114,6 @@
 # powerOf2(50)
 
 "------------------------------------------------------------------------"
-
 # Find Number of Days Above Average Temperature
 
 # numDays = int(input("How many days' temperatures? "))  # nhap so ngay
@@ -132,7 +131,9 @@
 #     if temp[i] > average:  # neu temps[i] > average
 #         above += 1  # above = above + 1
 # print(str(above) + " days above average")  # in ra above
+
 # -------------------------------------------------------------------------
+
 # Example 1                                   -               #Example 2
 # How many days' temperatures? 2              -               How many days' temperatures? 4
 # Day1's high temp: 1                         -               Day1's high temp: 20
