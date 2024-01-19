@@ -117,14 +117,30 @@
 
 # Find Number of Days Above Average Temperature
 
+# numDays = int(input("How many days' temperatures? "))  # nhap so ngay
+# total = 0  # khoi tao bien total = 0
+# temp = []  # khoi tao mang temps
+# for i in range(numDays):  # duyet mang numdays
+#     nextDays = int(input("Day" + str(i + 1) + "'s high temp: "))
+#     temp.append(nextDays)  # them phan tu nextDays vao mang temps
+#     total += temp[i]  # total = total + temps[i]
+# average = round(total / numDays, 2)  # khoi tao bien average = total / numdays
+# print("Average = " + str(average))  # in ra average
 
-# def averageTemperature(temperatures): # ham averageTemperature co tham so la temperatures
-#     sum = 0 # khoi tao bien sum = 0
-#     for temperature in temperatures: # duyet mang temperatures
-#         sum += temperature # sum = sum + temperature
-#     return sum / len(temperatures) # tra ve sum / do dai mang temperatures
-
-# print(averageTemperature([1,2]))
+# above = 0  # khoi tao bien above = 0
+# for i in range(numDays):  # duyet mang numdays
+#     if temp[i] > average:  # neu temps[i] > average
+#         above += 1  # above = above + 1
+# print(str(above) + " days above average")  # in ra above
+# -------------------------------------------------------------------------
+# Example 1                                   -               #Example 2
+# How many days' temperatures? 2              -               How many days' temperatures? 4
+# Day1's high temp: 1                         -               Day1's high temp: 20
+# Day2's high temp: 2                         -               Day2's high temp: 21
+# Average = 1.5                               -               Day3's high temp: 50
+# 1 days above average                        -               Day4's high temp: 60
+#                                             -               Average = 37.75
+#                                             -               2 days above average
 
 "------------------------------------------------------------------------"
 
@@ -133,7 +149,6 @@
 #         for j in range(i + 1, len(nums)): # duyet mang nums
 #             if nums[j] == target - nums[i]: # neu nums[j] = target - nums[i]
 #                 return [i, j] # tra ve [i, j]
-
 
 # print(twoSum([3, 2, 4], 6)) # goi ham twoSum -> trả kết quả ra màn hình [1, 2]
 
