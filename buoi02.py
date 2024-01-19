@@ -237,7 +237,8 @@
 "----------------------------------------------------------------------------"
 
 # Anser 10 questions
-"""
+# Xoá dấu """ """ # để chạy code
+""" 
 # 1. Create an array and traverse.
 from array import *
 
