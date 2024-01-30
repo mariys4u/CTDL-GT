@@ -449,11 +449,3 @@ print(searchTDArray(twoDArray, 55)) # goi ham searchTDArray -> trả kết quả
 newTDArray = np.delete(twoDArray, 1, axis=1) # xoa phan tu tai vi tri 1 cua mang twoDArray
 print(newTDArray) # in ra mang newTDArray -> [[11 10  6] [10 11  5] [12 12  8] [15 14  9]]
 """
-# use del()
-
-# Làm thế nào để loại bỏ tất cả các giá trị None từ một danh sách trong Python?
-# A) list(filter(None, list))
-
-
-a = [i**2 for i in range(10) if i % 2 == 0]
-#
