@@ -273,10 +273,11 @@ print(new_linked_list.head.data)  # Output: 10"""
 
 
 # Create Singly Linked List
-"""class Node:
+class Node:
     def __init__(self, value):
         self.value = value
         self.next = None
+
 
 class LinkedList:
     def __init__(self, value):
@@ -285,8 +286,9 @@ class LinkedList:
         self.tail = self.head
         self.length = 1
 
+
 # Test the LinkedList
-linked_list = LinkedList("A")
+linked_list = LinkedList("Nguyễn Gia Lộc")
 print(linked_list.head.value)  # Output: 'A'
 print(linked_list.tail.value)  # Output: 'A'
-print(linked_list.length)  # Output: 1"""
+print(linked_list.length)  # Output: 1
